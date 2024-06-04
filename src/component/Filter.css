@@ -1,0 +1,9 @@
+.filter-list select {
+  margin-right: 0.5rem;
+  width: 5rem;
+}
+
+.filter-list input {
+  margin-right: 0.5rem;
+  width: 6rem;
+}

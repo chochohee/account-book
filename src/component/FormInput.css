@@ -1,0 +1,46 @@
+.form {
+  border: 1px solid black;
+  width: 400px;
+  height: 200px;
+  padding: 1rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0.5rem;
+}
+
+input[type="string"],
+input[type="number"] {
+  flex: auto;
+  margin-right: 5rem;
+  max-height: 1rem;
+}
+input[type="text"] {
+  margin-left: auto;
+  margin-right: 5rem;
+  width: 7.5rem;
+}
+
+.main_label {
+  width: 6rem;
+  text-align: right;
+  margin-right: 0.5rem;
+}
+
+.form p {
+  margin: 0 1rem 0 0.1rem;
+  font-size: 0.7rem;
+  line-height: 2;
+}
+
+.submit-button {
+  margin-left: auto;
+  margin-right: 0.2rem;
+  margin-top: 0.2rem;
+}
