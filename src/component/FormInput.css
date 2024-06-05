@@ -15,19 +15,19 @@
   margin-bottom: 0.5rem;
 }
 
-input[type="string"],
-input[type="number"] {
+#name,
+#price {
   flex: auto;
   margin-right: 5rem;
   max-height: 1rem;
 }
-input[type="text"] {
+#memo {
   margin-left: auto;
   margin-right: 5rem;
   width: 7.5rem;
 }
 
-.main_label {
+.main-label {
   width: 6rem;
   text-align: right;
   margin-right: 0.5rem;
